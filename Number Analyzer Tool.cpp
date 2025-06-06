@@ -50,7 +50,16 @@ int main()
 			if (number < min) min = number;
 		}
 
-		
+		//Count logic
+		count++;
+		//Check if even
+		if (number % 2 == 0) even++;
+		//Otherwise, it's odd
+		else odd++;
+		//Check if positive
+		if (number > 0) positive++;
+		//Otherwise, it's negative
+		else negative++;
 	}
 
     return 0;
