@@ -12,7 +12,7 @@ int main()
 	int max = 0, min = 0;
 
     //Input
-	cout << "Enter a number (positive or negative): \n";
+	cout << "Enter a number (positive or negative or 0 to exit): \n";
 
 	//While loop to process input
 	while (true)
@@ -31,7 +31,12 @@ int main()
 			continue;
 		}
 
-		
+		//Check for sentinel value
+		if (number == 0)
+		{
+			cout << "Sentinel value 0 entered. Exiting...\n";
+			break;
+		}
 	}
 
     return 0;
