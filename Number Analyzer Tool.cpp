@@ -12,7 +12,7 @@ int main()
 	int max = 0, min = 0;
 
     //Input
-	cout << "Enter a number (positive or negative): ";
+	cout << "Enter a number (positive or negative): \n";
 
     return 0;
 }
