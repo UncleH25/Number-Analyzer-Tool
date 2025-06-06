@@ -62,5 +62,20 @@ int main()
 		else negative++;
 	}
 
+	//Output results
+	cout << fixed << setprecision(2);
+	cout << "Total numbers entered: " << count << endl;
+	cout << "Even numbers: " << even << endl;
+	cout << "Odd numbers: " << odd << endl;
+	cout << "Positive numbers: " << positive << endl;
+	cout << "Negative numbers: " << negative << endl;
+	if (count > 0) {
+		cout << "Maximum number: " << max << endl;
+		cout << "Minimum number: " << min << endl;
+	}
+	else {
+		cout << "No valid numbers were entered." << endl;
+	}
+
     return 0;
 }
