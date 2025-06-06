@@ -14,5 +14,25 @@ int main()
     //Input
 	cout << "Enter a number (positive or negative): \n";
 
+	//While loop to process input
+	while (true)
+	{
+		cin >> number;
+
+		//Check for invalid input
+		if (cin.fail())
+		{
+			//Clear the error flag
+			cin.clear();
+			//Discard invalid input
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+			cout << "Invalid input. Please enter a valid integer: \n";
+			// Prompt for input again
+			continue;
+		}
+
+		
+	}
+
     return 0;
 }
