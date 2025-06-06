@@ -12,7 +12,7 @@ int main()
 	int max = 0, min = 0;
 
     //Input
-	cout << "Enter a number (positive or negative or 0 to exit): \n";
+	cout << "Enter 4 numbers (positive or negative or 0 to exit): \n";
 
 	//While loop to process input
 	while (true)
