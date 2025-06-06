@@ -37,6 +37,20 @@ int main()
 			cout << "Sentinel value 0 entered. Exiting...\n";
 			break;
 		}
+
+		//Minimum and Maximum logic
+		if (count == 0)
+		{
+			//Initialize max and min with the first valid number
+			max = min = number; 
+		}
+		else
+		{
+			if (number > max) max = number;
+			if (number < min) min = number;
+		}
+
+		
 	}
 
     return 0;
